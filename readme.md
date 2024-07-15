@@ -11,3 +11,7 @@ Open Swagger
 ```sh
 http://localhost:3000/api
 ```
+
+## Problem 6
+
+Instructions on running this server are specifically documented in the readme.md file located in the subfolder.

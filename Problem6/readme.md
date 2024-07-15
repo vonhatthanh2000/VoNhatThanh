@@ -33,3 +33,15 @@ At its core, a WebSocket is a communication protocol that enables real-time, ful
 Here is overall flow for this app
 
 ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/Overall+flow.png)
+
+1. Sign up flow
+   Server allow user register by email and then validate account by OTP
+   ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/signup-flow.png)
+
+2. Update Score
+   Increase the user’s score when user complete an action
+   Each user can login to the app with only 1 device
+   We have a score check team to make sure that no cheating in updating score
+   ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/update-score.png)
+3. View Top 10 highest score
+   ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/view-score.png)
