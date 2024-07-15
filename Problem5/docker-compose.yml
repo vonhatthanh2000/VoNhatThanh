@@ -1,0 +1,12 @@
+name: crude-server
+services:
+  postgres:
+    image: postgres:14
+    container_name: crude-server-postgres
+    restart: always
+    ports:
+      - 5436:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: crude-server
