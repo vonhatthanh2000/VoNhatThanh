@@ -41,7 +41,11 @@ Here is overall flow for this app
 2. Update Score
    Increase the user’s score when user complete an action
    Each user can login to the app with only 1 device
+
    We have a score check team to make sure that no cheating in updating score
+
    ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/update-score.png)
+
 3. View Top 10 highest score
+
    ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/view-score.png)
