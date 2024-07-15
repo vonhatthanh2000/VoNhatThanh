@@ -7,8 +7,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const swaggerOption = new DocumentBuilder()
-    .setTitle('Talent Scout API')
-    .setDescription('Talent Scout API description')
+    .setTitle('CRUDE SERVER API')
+    .setDescription('Crud server API description')
     .setVersion('1.0')
     .addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT' },

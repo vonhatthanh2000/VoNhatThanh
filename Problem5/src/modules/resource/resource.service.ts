@@ -69,7 +69,7 @@ export class ResourceService {
         const formattedQuery = searchName.trim().replace(/ /g, ' & ');
         const query = searchName ? `${formattedQuery}:*` : formattedQuery;
         resourceQuery.where(
-          "candidate.search_vector @@ to_tsquery('simple',:query)",
+          "resources.search_vector @@ to_tsquery('simple',:query)",
           {
             query,
           },
@@ -125,7 +125,7 @@ export class ResourceService {
         const formattedQuery = searchName.trim().replace(/ /g, ' & ');
         const query = searchName ? `${formattedQuery}:*` : formattedQuery;
         resourceQuery.where(
-          "candidate.search_vector @@ to_tsquery('simple',:query)",
+          "resources.search_vector @@ to_tsquery('simple',:query)",
           {
             query,
           },
