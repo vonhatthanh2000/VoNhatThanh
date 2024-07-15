@@ -3,9 +3,11 @@
 This project represents a basic CRUD server with JWT authentication
 
 1. Install NPM packages
-   ```sh
-   npm install
-   ```
+
+```sh
+yarn install
+```
+
 2. Copy sample env
    In Linux/Mac
 
