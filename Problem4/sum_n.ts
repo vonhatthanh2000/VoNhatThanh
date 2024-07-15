@@ -8,7 +8,7 @@ function sum_to_n_a(n: number): number {
 }
 
 // Approach 2
-function sum_to_n_a(n: number): number {
+function sum_to_n_a_apprach2(n: number): number {
   // complexity O(n)
   let sum = 0;
   for (let i = 0; i <= n; i++) {
@@ -18,7 +18,7 @@ function sum_to_n_a(n: number): number {
 }
 
 // Approach 3
-function sum_to_n_a(n: number): number {
+function sum_to_n_a_approach3(n: number): number {
   // complexity O(n)
 
   if (n <= 0) return 0;

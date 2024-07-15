@@ -2,7 +2,7 @@
 
 This project represents a basic CRUD server with JWT authentication
 
-1. Install NPM packages
+1. Install packages
 
 ```sh
 yarn install

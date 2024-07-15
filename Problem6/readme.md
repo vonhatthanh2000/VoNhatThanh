@@ -36,7 +36,8 @@ Here is overall flow for this app
 
 1. Sign up flow
    Server allow user register by email and then validate account by OTP
-   ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/signup-flow.png)
+
+   ![](https://tscout.s3.ap-southeast-1.amazonaws.com/thanh/signup-validate.png)
 
 2. Update Score
    Increase the user’s score when user complete an action
